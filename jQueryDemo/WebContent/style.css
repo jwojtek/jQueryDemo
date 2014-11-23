@@ -1,0 +1,25 @@
+body {
+	background-color: white;
+}
+
+.myMenu { margin:0; padding:0; } 
+.myMenu li { list-style:none; float:left; font:12px Arial, Helvetica, sans-serif #111; } 
+.myMenu li a:link, .myMenu li a:visited { display:block; text-decoration:none; background-color:grey; padding: 0.5em 2em; margin:0; border-right: 1px solid black; color:#111; } 
+.myMenu li a:hover { background-color:#585858; } 
+
+
+
+.myMenu li ul { position:absolute; visibility:hidden; border-top:1px solid black; margin:0; padding:0; } 
+.myMenu li ul li { display:inline; float:none; } 
+.myMenu li ul li a:link, .myMenu li ul li a:visited { background-color:grey; width:auto; } 
+.myMenu li ul li a:hover { background-color:#585858; }
+
+
+.accordion, .accordion * {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+
+
